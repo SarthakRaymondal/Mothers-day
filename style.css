@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+.bg {
+    transition: 1s;
+    position: fixed;
+    z-index: -5;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(50%);
+}
+.ft1 {
+font-family: "Noto Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+.anim1 {
+animation-name: text1;
+animation-duration: 3s;
+}
+/*Refers to the title*/
+@keyframes text1 {
+0%{opacity: 0;}
+}
+@keyframes fade1 {
+0%{opacity: 100;}
+100%{opacity: 0;}
+}
+.ca1 {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card1 {
+height: 320px;
+width:80%;
+background-color: white;
+border: none;
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card2 {
+height: 120%;
+width:80%;
+background-color: white;
+border: none;
+border-radius: 15px;
+display: none;
+}
+.img1 {
+transition: 2s;
+/*
+animation-name: fade1;
+animation-duration: 3s;
+animation-play-state: paused;
+*/
+}
+.img1:hover {
+filter: brightness(70%);
+}
+#card2 {
+animation-name: text1;
+animation-duration: 3s;
+animation-play-state: paused;
+}
+.button1 {
+transition: 0.8s;
+}
+.button1:hover {
+filter: brightness(50%);
+}
+.txt1 {
+transition: 0.1s;
+}
+.txt1:hover {
+border-bottom: 2px solid blue;
+
+color: blue;
+}
+.link1 {
+font-weight: 900;
+margin-left: 5px;
+color: red;
+}
+
+.divv1 {
+transition: 1s;
+}

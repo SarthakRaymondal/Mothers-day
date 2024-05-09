@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy mother's day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--ad4.mp3 is I feel it coming-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <div>
+    <h1 class="ft1 anim1" style="font-size: 60px;text-align: center;color: white;font-weight: 900;">Happy Mother's day</h1>
+    <h3 class="ft1 anim1" style="font-size: 25px;text-align: center;color: white;font-weight: 900;">Made by Sarthak Raymondal</h3>
+    <video autoplay muted loop id="myVideo" class="bg">
+        <source src="mixkit-happy-woman-running-on-the-meadow-21234-medium.mp4" type="video/mp4">
+    </video>
+<div class="ca1 divv1">
+     <div class="card1 anim1" id="card1">
+        <div style="display: block;">
+          <div style="width: 100%;display: flex;justify-content: center;"><img src="img1.png" height="150px" width="150px" class="img1" alt="open it up!" onclick="open1()"></div><br>
+          <p class="ft1" style="text-align: center;font-size: 30px;font-weight: 900;">Pls open the above card👆👆</p>
+        </div>
+     </div>
+     <div class="card2" id="card2">
+        <div style="display: block;">
+            <div style="width: 100%;display: flex;justify-content: center;"><img src="img3.png" height="100px" width="100px" style="transform: scaleX(-1);"><div style="display: block;"><p style="text-align: center;font-size: 40px;font-weight: 900;" class="ft1">Happy Mother's day</p></div><img src="img3.png" height="100px" width="100px"></div>
+            <p style="text-align: center;font-size: 20px;" class="ft1"><img src="img2.png" height="20px"width="20px" style="transform: scaleX(-1);"><i>Happy Mothers day to all the mothers.Hoping that all the mothers around the world are having a very good day. They are very crutial part of our life and they take care for us and care for us. For them,many of us have succeded in life and I hope that we keep succeeding in our life.From my point,I hope that all the mothers around the wrold are having a very good day.So once again Happy Mothers Day!! <img src="img2.png" height="20px"width="20px"><br></i></p>
+            <div style="width: 100%;display: flex;justify-content: center;align-items: center;"><div style="display: block;"><p class="txt1 ft1" onclick="alert('Portfolio still on work..')" style="text-align: center;font-size: 20px;" onmouseover="b1()" onmouseout="b2()">-Sarthak Raymondal</p><div style="width: 100%;display: flex;justify-content: center;"><div style="height:25px;width:130px;border-radius: 4px;border: 2px solid #606221;background-color: #CCD232;display: none;" id="boxx1"><div style="width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;"><a class="ft1" style="font-size: 10px;">Press to view profile</a></div></div></div></div></div>
+            <br>
+     </div>
+</div></div>
+<br><br>
+<div style="width: 100%;display: flex;justify-content: center;" class="divv1"><button style="width:80%;height: 50px;border: none;border-radius: 15px;font-weight: 900;font-size: 20px;background-color: greenyellow;" class="ft1 anim1 button1" onclick="se()" onmouseover="a1()" onmouseout="a2()" id="button1">I liked it</button></div><br><br>
+</div>
+<p class="ft1 divv1" style="font-size: 30px;text-align: center;color: white;font-weight: 900;">⬇️Scroll down for credits and everything else</p>
+<br>
+<div onmouseover="bf()" onmouseout="br()" style="width:100%;height:100%;background-color: rgba(80, 76, 76, 0.4);backdrop-filter: blur(5px);">
+<br>
+<a style="font-size: 30px;color: white;font-weight: 900;margin-left: 5px;" class="ft1">Made by <span style="font-size: 40px;"><span style="color:blue">S</span><span style="color:red">r</span><span style="color: yellow">m</span></span></a><br><br>
+<a onclick="credits()" href="#" class="ft1 link1" >Credits</a><a onclick="alert('Portfolio still on work..')" href="#" class="ft1 link1" >About</a>
+<br><a class="ft1 link1" style="color: white;">Experiments😛😛:</a><a class="ft1 link1" href="#" onclick="psong()" id="ps1">▶️Play Song</a><br><br><br>
+<a style="font-size: 15px;color: white;margin-left: 5px;" class="ft1">Made for Mother's day.</a>
+</div>
+<script>
+    var ftl = 1
+    var ps = 0
+    var tw1 = new Audio('ps5.mp3')
+    tw1.loop = true
+    var aduio2 = new Audio('ad2.mp3')
+    aduio2.volume = 1
+    aduio2.playbackRate = 1
+    function open1() {
+        var aduio = new Audio('ad1.mp3')
+        aduio.play()
+         document.getElementById("card1").style.display = "none"
+         document.getElementById("card2").style.display = "block"
+         //States the animation to run once triggered
+         document.getElementById("card2").style.animationPlayState = "running"
+    }
+    function a1() {
+        document.getElementById("button1").innerHTML = "I liked it👍🏻👍🏻"
+    }
+    function a2() {
+        document.getElementById("button1").innerHTML = "I liked it"
+    }
+    function b1() {
+        document.getElementById("boxx1").style.display = "flex"
+    }
+    function b2() {
+        document.getElementById("boxx1").style.display = "none"
+    }
+    function se() {
+        aduio2.play()
+        window.open("mailto:Raymondal.sarthak@outlook.com")
+    }
+    function bf() {
+        document.getElementById("myVideo").style.filter = "brightness(30%)"
+        var dv1 = document.getElementsByClassName("divv1")
+        dv1[0].style.filter = "brightness(30%)"
+        dv1[1].style.filter = "brightness(30%)"
+        dv1[2].style.filter = "brightness(30%)"
+    }
+    function br() {
+        document.getElementById("myVideo").style.filter = "brightness(70%)"
+        var dv1 = document.getElementsByClassName("divv1")
+        dv1[0].style.filter = "brightness(100%)"
+        dv1[1].style.filter = "brightness(100%)"
+        dv1[2].style.filter = "brightness(100%)"
+    }
+    function credits() {
+        alert("Credits:\nMade by:Sarthak Raymondal\nMail card image:iyikon(www.vecteezy.com)\nBalloon image by:https://freepngimg.com/\nBg video by:https://mixkit.co/\nThat's all!!")
+    }
+    function psong() {
+        if(ftl===1) {
+            alert("Listen to a song(Idk why I added this)")
+            ftl = 0
+        }
+        if(ps === 0) {
+           ps = 1
+        }
+        else{
+            ps = 0
+        }
+        if(ps === 1) {
+            document.getElementById("ps1").innerHTML = "▶️Stop Song"
+            tw1.play()
+        }
+        if(ps === 0) {
+            document.getElementById("ps1").innerHTML = "▶️Play Song"
+            tw1.pause()
+        }
+    }
+</script>
+</body>
+</html>
